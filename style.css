@@ -7,7 +7,7 @@
 
   --background-color-wrapper: #fff;
 
-  --external-paddings: 207px;
+  --side-paddings: 207px;
 
   --border-color: #d6d6d6;
 
@@ -63,8 +63,8 @@ body {
 
 .header {
   border-bottom: 1px solid var(--border-color);
-  padding-left: var(--external-paddings);
-  padding-right: var(--external-paddings);
+  padding-left: var(--side-paddings);
+  padding-right: var(--side-paddings);
 }
 
 .header__container {
@@ -104,7 +104,7 @@ body {
 }
 
 .main-section {
-  padding-left: var(--external-paddings);
+  padding-left: var(--side-paddings);
 }
 .main-section__container {
   display: flex;
@@ -151,8 +151,8 @@ body {
 }
 
 .step {
-  padding-left: var(--external-paddings);
-  padding-right: var(--external-paddings);
+  padding-left: var(--side-paddings);
+  padding-right: var(--side-paddings);
 }
 
 .step__container {
@@ -242,8 +242,8 @@ body {
 
 .story-section {
   background: var(--background-color-story);
-  padding-left: var(--external-paddings);
-  padding-right: var(--external-paddings);
+  padding-left: var(--side-paddings);
+  padding-right: var(--side-paddings);
 }
 
 .story-section__container {
@@ -311,8 +311,8 @@ body {
   height: 100%;
   margin-inline: auto;
 
-  padding-left: var(--external-paddings);
-  padding-right: var(--external-paddings);
+  padding-left: var(--side-paddings);
+  padding-right: var(--side-paddings);
 }
 
 .product-section__container {
@@ -327,8 +327,8 @@ body {
 
 .footer {
   background: var(--background-color-story);
-  padding-left: var(--external-paddings);
-  padding-right: var(--external-paddings);
+  padding-left: var(--side-paddings);
+  padding-right: var(--side-paddings);
 }
 
 .footer__container {
