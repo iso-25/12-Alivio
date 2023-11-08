@@ -1,0 +1,120 @@
+:root {
+  /* global */
+  --ff-main: "Poppins", sans-serif;
+  --ff-add: "Lato", sans-serif;
+  --ff-logo: "Montserrat", sans-serif;
+
+  --background-color-body: #a8a8a8;
+  --background-color-wrapper: #fff;
+
+  --side-paddings: 207px;
+
+  --color-primary: #01996d;
+
+  /* header */
+  --background-color-header: #fff;
+  --border-color: #d6d6d6;
+  --header-container-gap: 30px;
+  --header-logo-max-width: 80px;
+  --header-ul-gap: 72px;
+  --header-container-padding: 14px 70px;
+  --header-a-text-color: #292929;
+  --header-a-font-size: 20px;
+  --header-btn-gap: 10px;
+
+  /* btn */
+  --btn-radius: 4px;
+  --btn-padding-top: 13px;
+  --btn-padding-bottom: 13px;
+  --btn-font-size: 20px;
+  --btn-line-height: 25px;
+
+  /* btn-link */
+  --btn-link-text-color: #000;
+  --btn-link-padding-left: 30px;
+  --btn-link-padding-right: 30px;
+
+  /* btn-primary */
+  --btn-primary-background-color: #01996d;
+  --btn-primary-text-color: #fff;
+  --btn-primary-padding-left: 50px;
+  --btn-primary-padding-right: 50px;
+  
+  /* abovetitle */
+  --abovetitle-text-color: #424242;
+  --abovetitle-steps-font-size: 24px;
+  --abovetitle-product-font-size: 25px;
+
+  /* titles */
+  --titles-text-color: #01996d;
+  --titles-font-size: 50px;
+  --titles-main-font-size: 65px;
+
+  /* titles-step-item */
+  --titles-step-item-text-color: #000;
+  --titles-step-item-font-size: 30px;
+
+  /* titles-story */
+  --titles-story-text-color: #fff;
+
+  /* desc */
+  --desc-text-color: #484848;
+  --desc-font-size: 20px;
+
+  /* desc-steps */
+  --desc-steps-text-color: #424242;
+
+  /* desc-story */
+  --desc-story-text-color: #fff;
+  --desc-story-font-size: 25px;
+
+  /* main-section */
+  --background-color-main: #fff;
+  --main-section-side-paddings: 68px;
+  --main-section-container-gap: 20px;
+  --main-section-title-max-width: 443px;
+  --main-section-title-margin-bottom: 10px;
+  --main-section-desc-max-width: 420px;
+  --main-section-desc-margin-bottom: 53px;
+  --main-section-btn-padding-top: 20px;
+  --main-section-btn-padding-bottom: 20px;
+  --main-section-img-max-width: 792px;
+
+  /* step-section */
+  --background-color-step: #fff;
+  --step-container-padding: 169px 57px 392px;
+  --step-header-grid-template-columns-min: 500px;
+  --step-header-column-gap: 141px;
+  --step-list-margin-top: 82px;
+  --step-list-grid-template-columns-min: 390px;
+  --step-list-gap: 68px;
+
+  --step-item-title-margin-bottom: 20px;
+  --step-item-desc-margin-bottom: 66px;
+
+  /* story-section */
+  --background-color-story: #245852;
+  --story-container-padding: 229px 0 177px;
+  --story-container-gap: 31px;
+  --story-info-max-width: 580px;
+  --story-title-margin-bottom: 33px;
+  --story-desc-margin-bottom: 57px;
+  --story-img-border-radius: 16px;
+  --story-img-max-width: 869px;
+
+  --story-icon-play-max-width: 80px;
+  --story-icon-play-max-height: 80px;
+  --story-icon-play-top: calc(50% - 40px);
+  --story-icon-play-left: calc(50% - 40px);
+
+  
+  
+
+
+  
+
+
+  /* product-section */
+  /* footer */
+  --background-color-footer: #245852;
+}

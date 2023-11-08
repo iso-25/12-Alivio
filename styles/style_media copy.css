@@ -1,0 +1,247 @@
+@media screen and (max-width: 1440px) {
+  :root {
+    /* global */
+    --side-paddings: calc(207px * 1440 / 1920);
+
+    /* header */
+    --header-container-gap: calc(30px * 1440 / 1920);
+    --header-ul-gap: calc(72px * 1440 / 1920);
+    --header-container-padding: calc(14px * 1440 / 1920)
+      calc(70px * 1440 / 1920);
+    --header-a-font-size: calc(20px * 1440 / 1920);
+    --header-btn-gap: calc(10px * 1440 / 1920);
+
+    /* btn */
+    --btn-padding-top: calc(13px * 1440 / 1920);
+    --btn-padding-bottom: calc(13px * 1440 / 1920);
+    --btn-font-size: calc(20px * 1440 / 1920);
+    --btn-line-height: calc(25px * 1440 / 1920);
+
+    /* btn-link */
+    --btn-link-padding-left: calc(30px * 1440 / 1920);
+    --btn-link-padding-right: calc(30px * 1440 / 1920);
+
+    /* btn-primary */
+    --btn-primary-padding-left: calc(50px * 1440 / 1920);
+    --btn-primary-padding-right: calc(50px * 1440 / 1920);
+
+    /* abovetitle */
+    --abovetitle-steps-font-size: calc(24px * 1440 / 1920);
+    --abovetitle-product-font-size: calc(25px * 1440 / 1920);
+
+    /* titles */
+    --titles-font-size: calc(50px * 1440 / 1920);
+    --titles-main-font-size: calc(65px * 1440 / 1920);
+    /* 65px; */
+
+    /* titles-step-item */
+    --titles-step-item-font-size: calc(30px * 1440 / 1920);
+
+    /* desc */
+    --desc-font-size: calc(16px * 1440 / 1920);
+
+    /* desc-story */
+    --desc-story-font-size: calc(20px * 1440 / 1920);
+
+    /* main-section */
+    --main-section-side-paddings: calc(50px * 1440 / 1920);
+    --main-section-container-gap: calc(20px * 1440 / 1920);
+    --main-section-title-max-width: calc(443px * 1440 / 1920);
+    --main-section-title-margin-bottom: calc(10px * 1440 / 1920);
+    --main-section-desc-max-width: calc(420px * 1440 / 1920);
+    --main-section-desc-margin-bottom: calc(53px * 1440 / 1920);
+    --main-section-btn-padding-top: calc(20px * 1440 / 1920);
+    --main-section-btn-padding-bottom: calc(20px * 1440 / 1920);
+    --main-section-img-max-width: calc(792px * 1440 / 1920);
+
+    /* step-section */
+    --step-container-padding: calc(169px * 1440 / 1920) calc(57px * 1440 / 1920)
+      calc(392px * 1440 / 1920);
+    --step-header-column-gap: calc(141px * 1440 / 1920);
+    --step-header-grid-template-columns-min: calc(500px * 1440 / 1920);
+    --step-list-margin-top: calc(82px * 1440 / 1920);
+    --step-list-grid-template-columns-min: calc(390px * 1440 / 1920);
+    --step-list-gap: calc(68px * 1440 / 1920);
+    --step-item-title-margin-bottom: calc(20px * 1440 / 1920);
+    --step-item-desc-margin-bottom: calc(66px * 1440 / 1920);
+
+    /* story-section */
+    --story-container-padding: calc(229px * 1440 / 1920) 0
+      calc(177px * 1440 / 1920);
+    --story-container-gap: calc(31px * 1440 / 1920);
+    --story-info-max-width: calc(580px * 1440 / 1920);
+    --story-title-margin-bottom: calc(33px * 1440 / 1920);
+    --story-desc-margin-bottom: calc(57px * 1440 / 1920);
+    --story-img-border-radius: calc(16px * 1440 / 1920);
+    --story-img-max-width: calc(895px * 1440 / 1920);
+    --story-icon-play-max-width: calc(80px * 1440 / 1920);
+    --story-icon-play-max-height: calc(80px * 1440 / 1920);
+    --story-icon-play-top: calc(50% - (40px * 1440 / 1920));
+    --story-icon-play-left: calc(50% - (40px * 1440 / 1920));
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  :root {
+    /* global */
+    --side-paddings: calc(207px * 1024 / 1920);
+
+    /* header */
+    --header-container-gap: calc(30px * 1024 / 1920);
+    --header-ul-gap: calc(72px * 1024 / 1920);
+    --header-container-padding: calc(14px * 1024 / 1920)
+      calc(70px * 1024 / 1920);
+    /* --header-a-font-size: calc(20px * 1024 / 1920); */
+    --header-btn-gap: calc(10px * 1024 / 1920);
+
+    /* btn */
+    --btn-padding-top: calc(13px * 1024 / 1920);
+    --btn-padding-bottom: calc(13px * 1024 / 1920);
+    /* --btn-font-size: calc(20px * 1024 / 1920); */
+    /* --btn-line-height: calc(25px * 1024 / 1920); */
+
+    /* btn-link */
+    --btn-link-padding-left: calc(30px * 1024 / 1920);
+    --btn-link-padding-right: calc(30px * 1024 / 1920);
+
+    /* btn-primary */
+    --btn-primary-padding-left: calc(50px * 1024 / 1920);
+    --btn-primary-padding-right: calc(50px * 1024 / 1920);
+
+    /* abovetitle */
+    /* --abovetitle-steps-font-size: calc(24px * 1024 / 1920); */
+    /* --abovetitle-product-font-size: calc(25px * 1024 / 1920); */
+
+    /* titles */
+    /* --titles-font-size: calc(50px * 1024 / 1920); */
+    /* --titles-main-font-size: calc(65px * 1024 / 1920); */
+
+    /* titles-step-item */
+    --titles-step-item-font-size: calc(30px * 1024 / 1920);
+
+    /* desc */
+    /* --desc-font-size: calc(16px * 1024 / 1920); */
+
+    /* desc-story */
+    /* --desc-story-font-size: calc(20px * 1024 / 1920); */
+
+    /* main-section */
+    --main-section-side-paddings: calc(50px * 1024 / 1920);
+    --main-section-container-gap: calc(20px * 1024 / 1920);
+    --main-section-title-max-width: calc(443px * 1024 / 1920);
+    --main-section-title-margin-bottom: calc(10px * 1024 / 1920);
+    --main-section-desc-max-width: calc(420px * 1024 / 1920);
+    --main-section-desc-margin-bottom: calc(53px * 1024 / 1920);
+    --main-section-btn-padding-top: calc(20px * 1024 / 1920);
+    --main-section-btn-padding-bottom: calc(20px * 1024 / 1920);
+    --main-section-img-max-width: calc(792px * 1024 / 1920);
+
+    /* step-section */
+    --step-container-padding: calc(169px * 1024 / 1920) calc(57px * 1024 / 1920)
+      calc(392px * 1024 / 1920);
+    --step-header-column-gap: calc(141px * 1024 / 1920);
+    --step-header-grid-template-columns-min: calc(500px * 1024 / 1920);
+    --step-list-margin-top: calc(82px * 1024 / 1920);
+    --step-list-grid-template-columns-min: calc(390px * 1024 / 1920);
+    --step-list-gap: calc(68px * 1024 / 1920);
+    --step-item-title-margin-bottom: calc(20px * 1024 / 1920);
+    --step-item-desc-margin-bottom: calc(66px * 1024 / 1920);
+
+    /* story-section */
+    --story-container-padding: calc(229px * 1024 / 1920) 0
+      calc(177px * 1024 / 1920);
+    --story-container-gap: calc(31px * 1024 / 1920);
+    /* --story-info-max-width: calc(580px * 1024 / 1920); */
+    --story-title-margin-bottom: calc(33px * 1024 / 1920);
+    --story-desc-margin-bottom: calc(57px * 1024 / 1920);
+    --story-img-border-radius: calc(16px * 1024 / 1920);
+    --story-img-max-width: calc(895px * 1024 / 1920);
+    --story-icon-play-max-width: calc(80px * 1024 / 1920);
+    --story-icon-play-max-height: calc(80px * 1024 / 1920);
+    --story-icon-play-top: calc(50% - (40px * 1024 / 1920));
+    --story-icon-play-left: calc(50% - (40px * 1024 / 1920));
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  :root {
+    /* global */
+    --side-paddings: calc(207px * 768 / 1920);
+
+    /* header */
+    --header-container-gap: calc(30px * 768 / 1920);
+    --header-ul-gap: calc(72px * 768 / 1920);
+    --header-container-padding: calc(14px * 768 / 1920)
+      calc(70px * 768 / 1920);
+    /* --header-a-font-size: calc(20px * 768 / 1920); */
+    --header-btn-gap: calc(10px * 768 / 1920);
+
+    /* btn */
+    --btn-padding-top: calc(13px * 768 / 1920);
+    --btn-padding-bottom: calc(13px * 768 / 1920);
+    /* --btn-font-size: calc(20px * 768 / 1920); */
+    /* --btn-line-height: calc(25px * 768 / 1920); */
+
+    /* btn-link */
+    --btn-link-padding-left: calc(30px * 768 / 1920);
+    --btn-link-padding-right: calc(30px * 768 / 1920);
+
+    /* btn-primary */
+    --btn-primary-padding-left: calc(50px * 768 / 1920);
+    --btn-primary-padding-right: calc(50px * 768 / 1920);
+
+    /* abovetitle */
+    /* --abovetitle-steps-font-size: calc(24px * 768 / 1920); */
+    /* --abovetitle-product-font-size: calc(25px * 768 / 1920); */
+
+    /* titles */
+    /* --titles-font-size: calc(50px * 768 / 1920); */
+    /* --titles-main-font-size: calc(65px * 768 / 1920); */
+
+    /* titles-step-item */
+    /* --titles-step-item-font-size: calc(30px * 768 / 1920); */
+
+    /* desc */
+    /* --desc-font-size: calc(16px * 768 / 1920); */
+
+    /* desc-story */
+    /* --desc-story-font-size: calc(20px * 768 / 1920); */
+
+    /* main-section */
+    --main-section-side-paddings: calc(50px * 768 / 1920);
+    --main-section-container-gap: calc(20px * 768 / 1920);
+    /* --main-section-title-max-width: calc(443px * 768 / 1920); */
+    --main-section-title-margin-bottom: calc(10px * 768 / 1920);
+    /* --main-section-desc-max-width: calc(420px * 768 / 1920); */
+    --main-section-desc-margin-bottom: calc(53px * 768 / 1920);
+    --main-section-btn-padding-top: calc(20px * 768 / 1920);
+    --main-section-btn-padding-bottom: calc(20px * 768 / 1920);
+    --main-section-img-max-width: calc(792px * 768 / 1920);
+
+    /* step-section */
+    --step-container-padding: calc(169px * 768 / 1920) calc(57px * 768 / 1920)
+      calc(392px * 768 / 1920);
+    /* --step-header-column-gap: calc(141px * 768 / 1920); */
+    /* --step-header-grid-template-columns-min: calc(500px * 768 / 1920); */
+    --step-list-margin-top: calc(82px * 768 / 1920);
+    /* --step-list-grid-template-columns-min: calc(390px * 768 / 1920); */
+    /* --step-list-gap: calc(68px * 768 / 1920); */
+    --step-item-title-margin-bottom: calc(20px * 768 / 1920);
+    --step-item-desc-margin-bottom: calc(66px * 768 / 1920);
+
+    /* story-section */
+    --story-container-padding: calc(229px * 768 / 1920) 0
+      calc(177px * 768 / 1920);
+    /* --story-container-gap: calc(31px * 768 / 1920); */
+    --story-info-max-width: calc(580px * 768 / 1920);
+    --story-title-margin-bottom: calc(33px * 768 / 1920);
+    --story-desc-margin-bottom: calc(57px * 768 / 1920);
+    --story-img-border-radius: calc(16px * 768 / 1920);
+    --story-img-max-width: calc(895px * 768 / 1920);
+    --story-icon-play-max-width: calc(80px * 768 / 1920);
+    --story-icon-play-max-height: calc(80px * 768 / 1920);
+    --story-icon-play-top: calc(50% - (40px * 768 / 1920));
+    --story-icon-play-left: calc(50% - (40px * 768 / 1920));
+  }
+}
