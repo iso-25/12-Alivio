@@ -13,6 +13,16 @@ body {
   margin-inline: auto;
 }
 
+img {
+  transition: all 0.2s linear;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+
+
+
 /* btn */
 .btn {
   display: inline-block;
@@ -27,6 +37,7 @@ body {
   font-size: var(--btn-font-size);
   font-weight: 500;
   line-height: var(--btn-line-height);
+  transition: 0.2s all ease-in-out;
 }
 
 .btn_link {
@@ -58,15 +69,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: var(--header-container-gap);
+  gap: 200px;
   white-space: nowrap;
 }
 
 .header__logo {
   max-width: 80px;
   flex-shrink: 0;
-  display: flex;
-  justify-content: center;
+  display:block;
+  
+  /* justify-content: center; */
+  transition: 0.2s all ease-in-out;
 }
 
 .header__logo img {
@@ -74,7 +87,16 @@ body {
   height: auto;
 }
 
+.header__nav {
+  width: 100%;
+  /* margin-inline: auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
 .header__ul {
+  width: 100%;
   display: flex;
   align-items: center;
   gap: var(--header-ul-gap);
@@ -86,12 +108,45 @@ body {
   font-family: var(--ff-add);
   font-size: var(--header-a-font-size);
   font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s all ease-in-out;
+}
+
+.header__logo,
+.header__a:hover,
+.footer__a:hover,
+.footer__logo:hover {
+  display: inline-block;
+  transform: scale(1.2);
+}
+
+.btn:hover {
+  transform: scale(1.2);
 }
 
 .header__btn {
+  align-content: end;
+  /* max-width: 100px; */
+  /* width: 100%;   */
   display: flex;
   align-items: center;
   gap: var(--header-btn-gap);
+}
+
+.header__menu-burger,
+.header__menu-back,
+.block-back {
+  display: none;
+}
+
+.header__icon-menu,
+.header__icon-back {
+  color: var(--header-a-text-color);
+  font-size: 30px;
+}
+
+.header__chk {
+  display: none;
 }
 
 /* main-section */
@@ -202,6 +257,7 @@ body {
   font-weight: 500;
   line-height: 150%;
 }
+
 .step-header__desc {
   grid-area: desc;
   align-self: flex-end;
@@ -323,6 +379,7 @@ body {
   justify-content: center;
   align-items: end;
   flex-shrink: 0;
+  overflow: hidden;
 }
 
 .product__img img {
@@ -371,6 +428,7 @@ body {
   font-family: var(--ff-logo);
   font-size: 40px;
   font-weight: 900;
+  transition: 0.2s all ease-in-out;
 }
 
 .footer__ul {
@@ -384,4 +442,5 @@ body {
   font-family: var(--ff-add);
   font-size: 25px;
   font-weight: 600;
+  transition: 0.2s all ease-in-out;
 }

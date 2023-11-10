@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alivio</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./styles/fonts.css">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style_var.css">
@@ -15,24 +16,32 @@
 <body>
     <!-- wrapper -->
     <div class="wrapper">
+
         <!-- header -->
         <header class="header">
             <div class="container header__container">
                 <a href="/" class="header__logo">
                     <img src="./img/logo.svg" alt="Alivio">
                 </a>
+                <input class="header__chk" id="headerCheckbox" type="checkbox">
+                <label for="headerCheckbox" class="menu-burger header__menu-burger">
+                    <span class="material-icons header__icon-menu">menu</span>
+                </label>
                 <nav class="header__nav">
+                    <label for="headerCheckbox" class="menu-back header__menu-back">
+                        <span class="material-icons header__icon-back">arrow_back</span>
+                    </label>
                     <ul class="header__ul">
                         <li class="header__li"><a href="/" class="header__a">Why Alivio</a></li>
                         <li class="header__li"><a href="/" class="header__a">Solutions</a></li>
                         <li class="header__li"><a href="/" class="header__a">Community</a></li>
                         <li class="header__li"><a href="/" class="header__a">Pricing</a></li>
                     </ul>
+                    <div class="header__btn">
+                        <a href="/" class="btn btn_link">Sign in</a>
+                        <a href="/" class="btn btn_primary header__btn_primary">Start Trial</a>
+                    </div>
                 </nav>
-                <div class="header__btn">
-                    <a href="/" class="btn btn_link">Sign in</a>
-                    <a href="/" class="btn btn_primary header__btn_primary">Start Trial</a>
-                </div>
             </div>
         </header>
 
@@ -97,6 +106,7 @@
                 </div>
             </div>
         </section>
+
         <!-- story-section -->
         <section class="story">
             <div class="container story__container">
@@ -107,16 +117,18 @@
                     <p class="desc  story__desc">See how well Alivio works in a real customer’s life. </p>
                     <a class="btn btn_primary btn_sections story__btn">Let’s get started</a>
                 </div>
-                <div class="story__img">
-                    <img src="./img/story-section.png" alt="Story">
-                    <span class="story__icon-play">
-                        <img src="./img/icon-play.svg" alt="">
-                    </span>
-                </div>
-
+                <a href="/" class="story__link">
+                    <div class="story__img">
+                        <img src="./img/story-section.png" alt="Story">
+                        <span class="story__icon-play">
+                            <img src="./img/icon-play.svg" alt="">
+                        </span>
+                    </div>
+                </a>
 
             </div>
         </section>
+
         <!-- product-section -->
         <section class="product">
             <div class="container product__container">
@@ -131,10 +143,7 @@
                         Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
                     <a class="btn btn_primary btn_sections product__btn">Find Your Way</a>
                 </div>
-
-
             </div>
-
         </section>
 
         <!-- footer     -->
