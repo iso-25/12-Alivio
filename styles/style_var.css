@@ -15,7 +15,6 @@
   --background-color-header: #fff;
   --border-color: #d6d6d6;
   --header-container-gap: 30px;
-  --header-logo-max-width: 80px;
   --header-ul-gap: 72px;
   --header-container-padding: 14px 70px;
   --header-a-text-color: #292929;
@@ -39,11 +38,14 @@
   --btn-primary-text-color: #fff;
   --btn-primary-padding-left: 50px;
   --btn-primary-padding-right: 50px;
+
+  --btn-section-padding-top: 20px;
+  --btn-section-padding-bottom: 20px;
+
   
   /* abovetitle */
   --abovetitle-text-color: #424242;
-  --abovetitle-steps-font-size: 24px;
-  --abovetitle-product-font-size: 25px;
+  --abovetitle-font-size: 24px;
 
   /* titles */
   --titles-text-color: #01996d;
@@ -73,48 +75,22 @@
   --main-section-side-paddings: 68px;
   --main-section-container-gap: 20px;
   --main-section-title-max-width: 443px;
-  --main-section-title-margin-bottom: 10px;
-  --main-section-desc-max-width: 420px;
-  --main-section-desc-margin-bottom: 53px;
-  --main-section-btn-padding-top: 20px;
-  --main-section-btn-padding-bottom: 20px;
-  --main-section-img-max-width: 792px;
 
   /* step-section */
   --background-color-step: #fff;
   --step-container-padding: 169px 57px 392px;
-  --step-header-grid-template-columns-min: 500px;
-  --step-header-column-gap: 141px;
-  --step-list-margin-top: 82px;
-  --step-list-grid-template-columns-min: 390px;
-  --step-list-gap: 68px;
-
-  --step-item-title-margin-bottom: 20px;
-  --step-item-desc-margin-bottom: 66px;
-
+  
   /* story-section */
   --background-color-story: #245852;
   --story-container-padding: 229px 0 177px;
   --story-container-gap: 31px;
-  --story-info-max-width: 580px;
-  --story-title-margin-bottom: 33px;
-  --story-desc-margin-bottom: 57px;
-  --story-img-border-radius: 16px;
-  --story-img-max-width: 869px;
-
-  --story-icon-play-max-width: 80px;
-  --story-icon-play-max-height: 80px;
-  --story-icon-play-top: calc(50% - 40px);
-  --story-icon-play-left: calc(50% - 40px);
-
-  
-  
-
-
-  
-
 
   /* product-section */
+  --product-img-color-background: rgba(1, 153, 109, 0.2);
+
   /* footer */
-  --background-color-footer: #245852;
+  --footer-background-color: #245852;
+  --footer-logo-text-color: #fff;
+  --footer-text-color: #fff;
+
 }
